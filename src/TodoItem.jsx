@@ -7,7 +7,7 @@ export default function TodoItem({ text, index }) {
   return (
     <div
       id={index}
-      className="__todo_item rounded-xl bg-yellow-100 p-3 m-3 w-full"
+      className="__todo_item rounded-xl bg-yellow-100 p-3 w-full"
     >
       <p className=" text-black">{text.note}</p>
       <button

@@ -38,7 +38,7 @@ function App() {
           Add
         </button>
       </form>
-      <div className="__todo_list bg-slate-600 p-4">
+      <div className="__todo_list flex flex-col gap-2 p-2 bg-slate-600">
         {allNotes?.map((note, index) => {
           return <TodoItem id={index} key={index} text={note} />;
         })}
